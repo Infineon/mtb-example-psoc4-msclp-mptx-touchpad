@@ -11,15 +11,15 @@ In addition, this code example also explains how to use the CAPSENSE&trade; Tune
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc4-msclp-mptx-touchpad)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzkwMzciLCJTcGVjIE51bWJlciI6IjAwMi0zOTAzNyIsIkRvYyBUaXRsZSI6IlBTb0MmdHJhZGU7IDQ6IE1TQ0xQIG11bHRpLXBoYXNlIG11dHVhbC1jYXBhY2l0YW5jZSB0b3VjaHBhZCIsInJpZCI6Im1heXVyIGNoYW5kYWsiLCJEb2MgdmVyc2lvbiI6IjEuMC4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzkwMzciLCJTcGVjIE51bWJlciI6IjAwMi0zOTAzNyIsIkRvYyBUaXRsZSI6IlBTb0MmdHJhZGU7IDQ6IE1TQ0xQIG11bHRpLXBoYXNlIG11dHVhbC1jYXBhY2l0YW5jZSB0b3VjaHBhZCIsInJpZCI6ImNoYW5kYWttYXl1ciIsIkRvYyB2ZXJzaW9uIjoiMS4wLjEiLCJEb2MgTGFuZ3VhZ2UiOiJFbmdsaXNoIiwiRG9jIERpdmlzaW9uIjoiTUNEIiwiRG9jIEJVIjoiSUNXIiwiRG9jIEZhbWlseSI6IlBTT0MifQ==)
 
 
 ## Requirements
 
 
-- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.1 or later
+- [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.2 or later
 
-   > **Note:** This code example requires ModusToolbox&trade; version 3.1 or later, and is not backward compatible with v3.0 or earlier versions.
+   > **Note:** This code example requires ModusToolbox&trade; version 3.2 or later, and is not backward compatible with v3.1 or earlier versions.
 
 - Board support package (BSP) minimum required version: 3.1.0
 - Programming language: C
@@ -611,7 +611,7 @@ Digital pin | CYBSP_USER_LED | To visualize the touchpad response
 
 Resources  | Links
 -----------|----------------------------------
-Application notes  | [AN79953](https://www.infineon.com/AN79953) – Getting started with PSoC&trade; 4 <br> [AN85951](https://www.infineon.com/AN85951) – PSoC&trade; 4 and PSoC&trade; 6 MCU CAPSENSE&trade; design guide <br> AN234231 - Achieving lowest-power capacitive sensing with PSoC&trade; 4000T
+Application notes  | [AN79953](https://www.infineon.com/AN79953) – Getting started with PSoC&trade; 4 <br> [AN85951](https://www.infineon.com/AN85951) – PSoC&trade; 4 and PSoC&trade; 6 MCU CAPSENSE&trade; design guide <br> [AN234231](https://www.infineon.com/AN234231) – Achieving lowest-power capacitive sensing with PSoC&trade; 4000T <br> [AN234185](https://www.infineon.com/AN234185) – PSoC&trade; 4 CAPSENSE&trade; touchpad design guide
 Code examples | [Using ModusToolbox&trade;](https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software) on GitHub <br> [Using PSoC&trade; Creator](https://www.infineon.com/cms/en/design-support/software/code-examples/psoc-3-4-5-code-examples-for-psoc-creator)
 Device documentation | [PSoC&trade; 4 datasheets](https://www.infineon.com/cms/en/search.html?intc=searchkwr-return#!view=downloads&term=psoc%204&doc_group=Data%20Sheet) <br>[PSoC&trade; 4 technical reference manuals](https://www.infineon.com/cms/en/search.html#!term=psoc%204%20technical%20reference%20manual&view=all)
 Development kits | Select your kits from the [evaluation board finder](https://www.infineon.com/cms/en/design-support/finder-selection-tools/product-finder/evaluation-board)
@@ -636,7 +636,8 @@ Document title: *CE239037* - *PSoC&trade; 4: MSCLP multi-phase mutual-capacitanc
 
  Version | Description of change
  ------- | ---------------------
- 1.0.0   | New code example to showcase MPTX technique. <br> This version is not backward compatible with ModusToolbox&trade; v2.4
+ 1.0.0   | New code example to showcase MPTX technique. <br> This version is not backward compatible with ModusToolbox&trade; v3.1
+ 1.0.1   | Minor fixes
 <br>
 
 
